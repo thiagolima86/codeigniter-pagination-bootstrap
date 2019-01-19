@@ -2,12 +2,24 @@
 
 
 /**
-* @class Pagination_Bootstrap is a codeigniter solution for pagination _layout_bootstrap
+*----------------------------------------------------------------
+*------------  CODEIGNITER  PAGINATION  BOOTSTRAP   -------------
+*----------------------------------------------------------------
+*
+* Pagination_Bootstrap is a codeigniter solution for pagination _layout_bootstrap
+*
 * Call library: $this->load->library("pagination_bootstrap");
 * Set: $this->pagination_bootstrap->config("/myControler/index", $this->db->get('table'));
 * Get result: $this->pagination_bootstrap->result()
 * Render pagination : <?php echo $this->pagination_bootstrap->render(); ?>
+*
+* @author Thiago Lima <thiagolima86gmail.com>
+* @version 1.0
+* @access public
 */
+
+
+
 class Pagination_Bootstrap {
 
   private $first_link = "<< ";
