@@ -65,3 +65,7 @@ view:
 <!-- render html link pagination -->
 <?php echo $this->pagination_bootstrap->render(); ?>
 ```
+
+Thanks, one video tutorial created by **Husmukh HD Muhammad**. 
+
+https://youtu.be/uZgewJU7mrg
